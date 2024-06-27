@@ -1,0 +1,24 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: gitops
+  labels:
+    app: gitops
+    kubernetes.azure.com/generator: devhub
+  namespace: namespace-workflow-1719461998288
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: gitops
+  template:
+    metadata:
+      labels:
+        app: gitops
+    spec:
+      containers:
+        - name: gitops
+          image: acrworkflow1719461998288.azurecr.io/image-workflow-1719461998288:latest
+          imagePullPolicy: Always
+          ports:
+            - containerPort: 8080
