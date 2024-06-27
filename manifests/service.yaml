@@ -1,0 +1,15 @@
+apiVersion: v1
+kind: Service
+metadata:
+  name: gitops
+  namespace: namespace-workflow-1719461998288
+  labels:
+    kubernetes.azure.com/generator: devhub
+spec:
+  type: LoadBalancer
+  selector:
+    app: gitops
+  ports:
+    - protocol: TCP
+      port: 8080
+      targetPort: 8080
