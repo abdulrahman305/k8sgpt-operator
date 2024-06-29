@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.0.5](https://github.com/abdulrahman305/k8sgpt-operator/compare/v0.0.4...v0.0.5) (2024-06-29)
+
+
+### Other
+
+* **deps:** update docker/build-push-action digest to 1556069 ([#455](https://github.com/abdulrahman305/k8sgpt-operator/issues/455)) ([bff8d4f](https://github.com/abdulrahman305/k8sgpt-operator/commit/bff8d4f97239667375180471d21f777552e8d750))
+
 ## [0.0.4](https://github.com/abdulrahman305/k8sgpt-operator/compare/v0.1.6...v0.0.4) (2024-06-27)
 
 
