@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.0.6](https://github.com/abdulrahman305/k8sgpt-operator/compare/v0.0.5...v0.0.6) (2024-07-07)
+
+
+### Bug Fixes
+
+* Dockerfile to reduce vulnerabilities ([1d91c23](https://github.com/abdulrahman305/k8sgpt-operator/commit/1d91c23adb52a21f695dd3bfc2cddf75eeb1b360))
+
 ## [0.0.5](https://github.com/abdulrahman305/k8sgpt-operator/compare/v0.0.4...v0.0.5) (2024-06-29)
 
 
