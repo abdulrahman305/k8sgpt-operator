@@ -1,5 +1,23 @@
 # Changelog
 
+## [0.0.7](https://github.com/abdulrahman305/k8sgpt-operator/compare/v0.0.6...v0.0.7) (2024-07-19)
+
+
+### Bug Fixes
+
+* **deps:** update k8s.io/utils digest to 18e509b ([#469](https://github.com/abdulrahman305/k8sgpt-operator/issues/469)) ([41b2a1d](https://github.com/abdulrahman305/k8sgpt-operator/commit/41b2a1db4fdd6ae26f2269a631ceb4368f99a3f7))
+* **deps:** update module google.golang.org/grpc to v1.65.0 ([#461](https://github.com/abdulrahman305/k8sgpt-operator/issues/461)) ([8598824](https://github.com/abdulrahman305/k8sgpt-operator/commit/85988244633bccebcd7bd665b36e6526f9153c04))
+
+
+### Other
+
+* **deps:** update actions/upload-artifact digest to 0b2256b ([#463](https://github.com/abdulrahman305/k8sgpt-operator/issues/463)) ([cf791ce](https://github.com/abdulrahman305/k8sgpt-operator/commit/cf791cebabff1867339c607531851496c9d09616))
+* **deps:** update anchore/sbom-action action to v0.16.1 ([#466](https://github.com/abdulrahman305/k8sgpt-operator/issues/466)) ([62418c0](https://github.com/abdulrahman305/k8sgpt-operator/commit/62418c0ac47607fdbb1d49c0f1489599e6da346d))
+* **deps:** update anchore/sbom-action action to v0.17.0 ([#472](https://github.com/abdulrahman305/k8sgpt-operator/issues/472)) ([13f14a6](https://github.com/abdulrahman305/k8sgpt-operator/commit/13f14a6fd224791ac99076bb931358e905a1db5d))
+* **deps:** update docker/build-push-action digest to 1a16264 ([#460](https://github.com/abdulrahman305/k8sgpt-operator/issues/460)) ([524e4ab](https://github.com/abdulrahman305/k8sgpt-operator/commit/524e4abd2bae0a7cd2329ff7c4285301132b416c))
+* **deps:** update docker/build-push-action digest to 1ca370b ([#470](https://github.com/abdulrahman305/k8sgpt-operator/issues/470)) ([126341e](https://github.com/abdulrahman305/k8sgpt-operator/commit/126341eb01aac5afc95cf15d62e428b3f80c4140))
+* **deps:** update docker/setup-buildx-action digest to 4fd8129 ([#462](https://github.com/abdulrahman305/k8sgpt-operator/issues/462)) ([60dd602](https://github.com/abdulrahman305/k8sgpt-operator/commit/60dd6029c2687032f6bd6ddfa8c682313f801611))
+
 ## [0.0.6](https://github.com/abdulrahman305/k8sgpt-operator/compare/v0.0.5...v0.0.6) (2024-07-07)
 
 
