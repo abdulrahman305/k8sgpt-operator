@@ -1,4 +1,4 @@
-FROM golang:1.23rc1
+FROM golang:1.23rc2
 ENV PORT 8080
 EXPOSE 8080
 
